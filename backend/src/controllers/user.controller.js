@@ -3,7 +3,7 @@ import ApiError from "../utils/ApiError.js";
 import asyncErrorHandler from "../utils/asyncErrorHandler.js";
 import { generateToken } from "../middlewares/auth.middleware.js";
 import { encryPassword } from "../utils/hashPassword.js";
-import ApiResponse from "../utils/apiResponse.js";
+import ApiResponse from "../utils/ApiResponse.js";
 import { Notes } from "../models/notes.model.js";
 
 //=================== Sign Up ===================

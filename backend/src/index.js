@@ -1,17 +1,17 @@
 import dotenv from "dotenv";
 import connectDB from "./db/db.js";
 import app from "./app.js";
-dotenv.config();
+
 
 // ------------ PORT -----------
-const PORT = 8000;
+const PORT =  8000;
 
 // --------- Database Connection ---------
 connectDB()
   .then(() => {
     app.listen(PORT, () => {
       console.log(
-       `Server is running at port ${PORT}...\nhttp://localhost:${PORT}`
+       `Server is running at port ${PORT}`
       );
     });
   })
