@@ -172,20 +172,15 @@ const Navbar = () => {
               <div className="text-xl text-green-700 font-bold">Follow Me</div>
               <div className="w-8/12 flex justify-center gap-x-2 text-2xl text-green-900 ">
                 <a
-                  href="https://in.linkedin.com/in/jabedalimollah"
+                  href="https://www.linkedin.com/in/navin-agarwal-2204an/"
                   target="_blank"
                 >
                   <FaLinkedin />
                 </a>
-                <a href="https://github.com/jabedalimollah" target="_blank">
+                <a href="https://github.com/Navin-Agarwal" target="_blank">
                   <FaGithub />
                 </a>
-                <a href="https://x.com/JabedAliMollah7" target="_blank">
-                  <BsTwitterX />
-                </a>
-                <a href="https://jabedalimollah.netlify.app/" target="_blank">
-                  <FaGlobe />
-                </a>
+                
               </div>
             </div>
           </div>
