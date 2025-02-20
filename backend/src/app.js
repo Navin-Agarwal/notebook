@@ -9,10 +9,8 @@ const app = express();
 // ----------- Middlewares ----------
 app.use(
   cors({
-    origin: ["http://localhost:5175/", "http://localhost:5175"],
- 
+    origin: ["*"],
     credentials: true,
-
   })
 );
 app.use(bodyParser.json());
@@ -25,6 +23,9 @@ import notes from "./routes/notes.routes.js";
 app.use("/api/v1/user", user);
 app.use("/api/v1/notes", jwtAuthMiddleware, notes);
 
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
 // ----------- It is used for incorrect endpoint and wrong api requests ----------
 app.use("*", (req, res, next) => {
   // =============== x ==================
