@@ -9,8 +9,10 @@ const app = express();
 // ----------- Middlewares ----------
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN,
+    origin: ["http://localhost:5175/", "http://localhost:5175"],
+ 
     credentials: true,
+
   })
 );
 app.use(bodyParser.json());
