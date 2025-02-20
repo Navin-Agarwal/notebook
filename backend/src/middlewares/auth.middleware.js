@@ -5,7 +5,7 @@ import asyncErrorHandler from "../utils/asyncErrorHandler.js";
 
 // --------------- Create Token ----------------
 const generateToken = (userData) => {
-  return jwt.sign(userData, process.env.JWT_SECRET_KEY);
+  return jwt.sign(userData, "8f4b6c2a9e1d7f3b5a8c4d2e6f9a7b3c1e5d8f2a4b6c9e3");
 };
 
 // ---------------- Verify Token -------------
@@ -36,7 +36,7 @@ const jwtAuthMiddleware = asyncErrorHandler(async (req, res, next) => {
     throw new ApiError(401, "fail", "Unauthorized request");
   }
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET_KEY);
+    const decoded = jwt.verify(token, "8f4b6c2a9e1d7f3b5a8c4d2e6f9a7b3c1e5d8f2a4b6c9e3");
     const user = await User.findById(decoded._id);
 
     if (!user) {
