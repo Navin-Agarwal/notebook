@@ -13,19 +13,34 @@
 //   deleteNotesURI: `${import.meta.env.VITE_APP_API_KEY}/notes/deletedata`,
 // };
 
-const apiRoutes = {
-  signupURI: "http://localhost:8000/api/v1/user/signup",
-  loginURI: "http://localhost:8000/api/v1/user/login",
-  resetpasswordURI: "http://localhost:8000/api/v1/user/resetpassword",
-  userprofileURI: "http://localhost:8000/api/v1/user/userprofile",
-  updateUserProfileURI: "http://localhost:8000/api/v1/user/updateuser",
-  deleteUserProfileURI: "http://localhost:8000/api/v1/user/deleteuser",
+// const apiRoutes = {
+//   signupURI: "http://localhost:8000/api/v1/user/signup",
+//   loginURI: "http://localhost:8000/api/v1/user/login", 
+//   resetpasswordURI: "http://localhost:8000/api/v1/user/resetpassword",
+//   userprofileURI: "http://localhost:8000/api/v1/user/userprofile",
+//   updateUserProfileURI: "http://localhost:8000/api/v1/user/updateuser",
+//   deleteUserProfileURI: "http://localhost:8000/api/v1/user/deleteuser",
 
-  createNotesURI: "http://localhost:8000/api/v1/notes/postdata",
-  getNotesURI: "http://localhost:8000/api/v1/notes/getdata",
-  findNotesURI: "http://localhost:8000/api/v1/notes/findnotes",
-  updateNotesURI: "http://localhost:8000/api/v1/notes/updatedata",
-  deleteNotesURI: "http://localhost:8000/api/v1/notes/deletedata",
+//   createNotesURI: "http://localhost:8000/api/v1/notes/postdata",
+//   getNotesURI: "http://localhost:8000/api/v1/notes/getdata",
+//   findNotesURI: "http://localhost:8000/api/v1/notes/findnotes", 
+//   updateNotesURI: "http://localhost:8000/api/v1/notes/updatedata",
+//   deleteNotesURI: "http://localhost:8000/api/v1/notes/deletedata",
+// };
+
+const apiRoutes = {
+  signupURI: "https://notebook-5tb2.vercel.app/api/v1/user/signup",
+  loginURI: "https://notebook-5tb2.vercel.app/api/v1/user/login",
+  resetpasswordURI: "https://notebook-5tb2.vercel.app/api/v1/user/resetpassword", 
+  userprofileURI: "https://notebook-5tb2.vercel.app/api/v1/user/userprofile",
+  updateUserProfileURI: "https://notebook-5tb2.vercel.app/api/v1/user/updateuser",
+  deleteUserProfileURI: "https://notebook-5tb2.vercel.app/api/v1/user/deleteuser",
+
+  createNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/postdata",
+  getNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/getdata",
+  findNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/findnotes",
+  updateNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/updatedata", 
+  deleteNotesURI: "https://notebook-5tb2.vercel.app/api/v1/notes/deletedata",
 };
 
 export { apiRoutes };
