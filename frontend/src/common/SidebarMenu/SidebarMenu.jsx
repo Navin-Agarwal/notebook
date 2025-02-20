@@ -49,7 +49,7 @@ const SidebarMenu = () => {
                 to="/user/profile"
                 className="text-green-700 font-bold text-xl"
               >
-                {/* Jabed Ali Mollah */}
+                {/* Navin Agarwal.*/}
                 {userData.name}
               </Link>
 
