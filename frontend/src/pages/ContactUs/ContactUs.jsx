@@ -49,19 +49,19 @@ const ContactUs = () => {
                   <hr className="border border-green-600 w-full" />
                   <div className="my-6 w-full  flex flex-col gap-y-4 md:gap-y-0 md:flex-row justify-around">
                     <a
-                      href="mailto:jabedalimollah7@gmail.com"
+                      href="mailto:navin.@gmail.com"
                       className=" shadow-md  border border-green-600 hover:bg-green-700 text-sm hover:text-white text-green-600 py-2 px-2 flex items-center gap-x-2 rounded"
                     >
                       <SiGmail />
-                      <span>jabedalimollah7@gmail.com</span>
+                      <span>navin.@gmail.com</span>
                     </a>
 
                     <a
-                      href="https://jabedalimollah.netlify.app/"
+                      href="https://navin.@gmail.com/"
                       target="_blank"
                       className=" shadow-md  border border-green-600 hover:bg-green-700 text-sm hover:text-white text-green-600 py-2 px-2 flex items-center gap-x-2 rounded"
                     >
-                      <FaGlobe /> <span> jabedalimollah.netlify.app</span>
+                      <FaGlobe /> <span> navin.@gmail.com</span>
                     </a>
                   </div>
                   <form
@@ -144,44 +144,7 @@ const ContactUs = () => {
               </div>
             </div>
 
-            <div className="flex flex-col items-center bg-green-100 text-green-900">
-              <div className="py-4 w-full flex flex-col items-center">
-                <div className="my-3 flex gap-x-4">
-                  <a
-                    href="https://in.linkedin.com/in/jabedalimollah"
-                    target="_blank"
-                    className="border-2 border-green-800 p-2 rounded-full hover:bg-green-800 hover:text-white"
-                  >
-                    {" "}
-                    <FaLinkedin />
-                  </a>
-                  <a
-                    href="https://github.com/jabedalimollah"
-                    target="_blank"
-                    className="border-2 border-green-800 p-2 rounded-full hover:bg-green-800 hover:text-white"
-                  >
-                    <FaGithub />{" "}
-                  </a>
-                  <a
-                    href="https://x.com/JabedAliMollah7"
-                    target="_blank"
-                    className="border-2 border-green-800 p-2 rounded-full hover:bg-green-800 hover:text-white"
-                  >
-                    <BsTwitterX />
-                  </a>
-                </div>
-                <div className="flex gap-x-3">
-                  <NavLink to={"/user/notes"}>Notes</NavLink>
-                  <NavLink to={"/user/todo_list"}>Todo List</NavLink>
-                  <NavLink to={"/user/profile"}>Profile</NavLink>
-                  <NavLink to={"/about"}>About</NavLink>
-                  {/* <NavLink to={"/contact_us"}>Contact Us</NavLink> */}
-                </div>
-              </div>
-              <div className="py-3 bg-green-300  w-full text-center font-bold text-xs md:text-base">
-                Copyright © {date}, Notebook. All Rights Reserved.
-              </div>
-            </div>
+         
           </div>
         </div>
       </div>

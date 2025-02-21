@@ -169,7 +169,7 @@ const UserProfile = () => {
               >
                 <h2 className={`text-3xl font-bold text-gray-700 mb-4 `}>
                   {data.name}
-                  {/* Jabed Ali Mollah */}
+                 
                 </h2>
                 <span className={`text-green-800 font-bold text-lg`}>
                   Profile
@@ -182,7 +182,7 @@ const UserProfile = () => {
               <div className={`w-full flex flex-col items-center`}>
                 {/* <div className={`w-8/12 flex border border-black`}>
                   <span className={`mr-12`}>Username</span>
-                  <span>@jabed</span>
+                
                 </div> */}
                 <table className="w-full md:w-9/12 lg:w-9/12 ">
                   <thead>
@@ -208,7 +208,7 @@ const UserProfile = () => {
                       </td>
                       <td className={`font-bold text-gray-500`}>
                         @{data.username}
-                        {/* @jabed */}
+                    
                       </td>
                     </tr>
                     <tr
@@ -220,7 +220,7 @@ const UserProfile = () => {
                       </td>
                       <td className={`font-bold text-gray-500`}>
                         {data.email}
-                        {/* jabed@test.com */}
+                       
                       </td>
                     </tr>
                     <tr
@@ -292,7 +292,7 @@ const UserProfile = () => {
                     </tr>
                     {/* <tr>
                       <td>Email</td>
-                      <td>jabed@test.com</td>
+                   
                     </tr>
                     <tr>
                       <td>Phone Number</td>

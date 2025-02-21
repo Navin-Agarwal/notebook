@@ -167,27 +167,8 @@ const Navbar = () => {
                 </div>
               </>
             )}
-            <div className="w-full flex flex-col gap-y-2 items-center mt-6 ">
-              <hr className="border border-green-700 mb-3 w-full" />
-              <div className="text-xl text-green-700 font-bold">Follow Me</div>
-              <div className="w-8/12 flex justify-center gap-x-2 text-2xl text-green-900 ">
-                <a
-                  href="https://in.linkedin.com/in/jabedalimollah"
-                  target="_blank"
-                >
-                  <FaLinkedin />
-                </a>
-                <a href="https://github.com/jabedalimollah" target="_blank">
-                  <FaGithub />
-                </a>
-                <a href="https://x.com/JabedAliMollah7" target="_blank">
-                  <BsTwitterX />
-                </a>
-                <a href="https://jabedalimollah.netlify.app/" target="_blank">
-                  <FaGlobe />
-                </a>
-              </div>
-            </div>
+         
+      
           </div>
         </div>
       </div>
